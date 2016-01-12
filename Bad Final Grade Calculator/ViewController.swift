@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // Titles
+    @IBOutlet weak var titleCourseName: UILabel!
+    @IBOutlet weak var titleCurrentGrade: UILabel!
+    @IBOutlet weak var titleFinalGradeWorth: UILabel!
+    
+    // Entries
+    @IBOutlet weak var entryCourseName: UITextField!
+    @IBOutlet weak var entryCurrentGrade: UITextField!
+    @IBOutlet weak var entryFinalGradeWorth: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
