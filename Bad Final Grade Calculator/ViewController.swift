@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var courseName: String = ""
+    var currentGrade: Int? = 0
+    var finalGradeWorth: Int? = 0
     
     // Titles
     @IBOutlet weak var titleCourseName: UILabel!
@@ -31,6 +34,24 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+    //Actions
+    @IBAction func enteredCourseName(sender: UITextField) {
+        courseName = entryCourseName.text!
+    }
+    
+    @IBAction func enteredCurrentGrade(sender: UITextField) {
+       currentGrade = Int(entryCurrentGrade.text!)
+
+    }
+    
+    @IBAction func enteredFinalGradeWorth(sender: UITextField) {
+        finalGradeWorth = Int(entryFinalGradeWorth.text!)
+        
+    }
+    
+    
+    
 
 
 }
