@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E68999F1C4577170061E209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68999E1C4577170061E209 /* AppDelegate.swift */; };
+		7E6899A11C4577170061E209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6899A01C4577170061E209 /* ViewController.swift */; };
+		7E6899A41C4577170061E209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6899A21C4577170061E209 /* Main.storyboard */; };
+		7E6899A61C4577170061E209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6899A51C4577170061E209 /* Assets.xcassets */; };
+		7E6899A91C4577170061E209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6899A71C4577170061E209 /* LaunchScreen.storyboard */; };
+		7E6899B41C4577170061E209 /* Bad_Final_Grade_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6899B31C4577170061E209 /* Bad_Final_Grade_CalculatorTests.swift */; };
+		7E6899BF1C4577180061E209 /* Bad_Final_Grade_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6899BE1C4577180061E209 /* Bad_Final_Grade_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6899B01C4577170061E209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6899931C4577170061E209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E68999A1C4577170061E209;
+			remoteInfo = "Bad Final Grade Calculator";
+		};
+		7E6899BB1C4577180061E209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6899931C4577170061E209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E68999A1C4577170061E209;
+			remoteInfo = "Bad Final Grade Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E68999B1C4577170061E209 /* Bad Final Grade Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Final Grade Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E68999E1C4577170061E209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E6899A01C4577170061E209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E6899A31C4577170061E209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E6899A51C4577170061E209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6899A81C4577170061E209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E6899AA1C4577170061E209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6899AF1C4577170061E209 /* Bad Final Grade CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad Final Grade CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6899B31C4577170061E209 /* Bad_Final_Grade_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_Final_Grade_CalculatorTests.swift; sourceTree = "<group>"; };
+		7E6899B51C4577170061E209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6899BA1C4577170061E209 /* Bad Final Grade CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad Final Grade CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6899BE1C4577180061E209 /* Bad_Final_Grade_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_Final_Grade_CalculatorUITests.swift; sourceTree = "<group>"; };
+		7E6899C01C4577180061E209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6899981C4577170061E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899AC1C4577170061E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899B71C4577170061E209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6899921C4577170061E209 = {
+			isa = PBXGroup;
+			children = (
+				7E68999D1C4577170061E209 /* Bad Final Grade Calculator */,
+				7E6899B21C4577170061E209 /* Bad Final Grade CalculatorTests */,
+				7E6899BD1C4577180061E209 /* Bad Final Grade CalculatorUITests */,
+				7E68999C1C4577170061E209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E68999C1C4577170061E209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E68999B1C4577170061E209 /* Bad Final Grade Calculator.app */,
+				7E6899AF1C4577170061E209 /* Bad Final Grade CalculatorTests.xctest */,
+				7E6899BA1C4577170061E209 /* Bad Final Grade CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E68999D1C4577170061E209 /* Bad Final Grade Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7E68999E1C4577170061E209 /* AppDelegate.swift */,
+				7E6899A01C4577170061E209 /* ViewController.swift */,
+				7E6899A21C4577170061E209 /* Main.storyboard */,
+				7E6899A51C4577170061E209 /* Assets.xcassets */,
+				7E6899A71C4577170061E209 /* LaunchScreen.storyboard */,
+				7E6899AA1C4577170061E209 /* Info.plist */,
+			);
+			path = "Bad Final Grade Calculator";
+			sourceTree = "<group>";
+		};
+		7E6899B21C4577170061E209 /* Bad Final Grade CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6899B31C4577170061E209 /* Bad_Final_Grade_CalculatorTests.swift */,
+				7E6899B51C4577170061E209 /* Info.plist */,
+			);
+			path = "Bad Final Grade CalculatorTests";
+			sourceTree = "<group>";
+		};
+		7E6899BD1C4577180061E209 /* Bad Final Grade CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6899BE1C4577180061E209 /* Bad_Final_Grade_CalculatorUITests.swift */,
+				7E6899C01C4577180061E209 /* Info.plist */,
+			);
+			path = "Bad Final Grade CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E68999A1C4577170061E209 /* Bad Final Grade Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6899C31C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade Calculator" */;
+			buildPhases = (
+				7E6899971C4577170061E209 /* Sources */,
+				7E6899981C4577170061E209 /* Frameworks */,
+				7E6899991C4577170061E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bad Final Grade Calculator";
+			productName = "Bad Final Grade Calculator";
+			productReference = 7E68999B1C4577170061E209 /* Bad Final Grade Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E6899AE1C4577170061E209 /* Bad Final Grade CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6899C61C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade CalculatorTests" */;
+			buildPhases = (
+				7E6899AB1C4577170061E209 /* Sources */,
+				7E6899AC1C4577170061E209 /* Frameworks */,
+				7E6899AD1C4577170061E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6899B11C4577170061E209 /* PBXTargetDependency */,
+			);
+			name = "Bad Final Grade CalculatorTests";
+			productName = "Bad Final Grade CalculatorTests";
+			productReference = 7E6899AF1C4577170061E209 /* Bad Final Grade CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6899B91C4577170061E209 /* Bad Final Grade CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6899C91C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade CalculatorUITests" */;
+			buildPhases = (
+				7E6899B61C4577170061E209 /* Sources */,
+				7E6899B71C4577170061E209 /* Frameworks */,
+				7E6899B81C4577170061E209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6899BC1C4577180061E209 /* PBXTargetDependency */,
+			);
+			name = "Bad Final Grade CalculatorUITests";
+			productName = "Bad Final Grade CalculatorUITests";
+			productReference = 7E6899BA1C4577170061E209 /* Bad Final Grade CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6899931C4577170061E209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ClaireDrebin;
+				TargetAttributes = {
+					7E68999A1C4577170061E209 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4CL6H52SJ5;
+					};
+					7E6899AE1C4577170061E209 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4CL6H52SJ5;
+						TestTargetID = 7E68999A1C4577170061E209;
+					};
+					7E6899B91C4577170061E209 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4CL6H52SJ5;
+						TestTargetID = 7E68999A1C4577170061E209;
+					};
+				};
+			};
+			buildConfigurationList = 7E6899961C4577170061E209 /* Build configuration list for PBXProject "Bad Final Grade Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E6899921C4577170061E209;
+			productRefGroup = 7E68999C1C4577170061E209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E68999A1C4577170061E209 /* Bad Final Grade Calculator */,
+				7E6899AE1C4577170061E209 /* Bad Final Grade CalculatorTests */,
+				7E6899B91C4577170061E209 /* Bad Final Grade CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6899991C4577170061E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6899A91C4577170061E209 /* LaunchScreen.storyboard in Resources */,
+				7E6899A61C4577170061E209 /* Assets.xcassets in Resources */,
+				7E6899A41C4577170061E209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899AD1C4577170061E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899B81C4577170061E209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6899971C4577170061E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6899A11C4577170061E209 /* ViewController.swift in Sources */,
+				7E68999F1C4577170061E209 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899AB1C4577170061E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6899B41C4577170061E209 /* Bad_Final_Grade_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6899B61C4577170061E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6899BF1C4577180061E209 /* Bad_Final_Grade_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6899B11C4577170061E209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E68999A1C4577170061E209 /* Bad Final Grade Calculator */;
+			targetProxy = 7E6899B01C4577170061E209 /* PBXContainerItemProxy */;
+		};
+		7E6899BC1C4577180061E209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E68999A1C4577170061E209 /* Bad Final Grade Calculator */;
+			targetProxy = 7E6899BB1C4577180061E209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6899A21C4577170061E209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6899A31C4577170061E209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E6899A71C4577170061E209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6899A81C4577170061E209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6899C11C4577180061E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E6899C21C4577180061E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E6899C41C4577180061E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bad Final Grade Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E6899C51C4577180061E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bad Final Grade Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E6899C71C4577180061E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bad Final Grade CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bad Final Grade Calculator.app/Bad Final Grade Calculator";
+			};
+			name = Debug;
+		};
+		7E6899C81C4577180061E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bad Final Grade CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bad Final Grade Calculator.app/Bad Final Grade Calculator";
+			};
+			name = Release;
+		};
+		7E6899CA1C4577180061E209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bad Final Grade CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bad Final Grade Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E6899CB1C4577180061E209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bad Final Grade CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClaireDrebin.Bad-Final-Grade-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bad Final Grade Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6899961C4577170061E209 /* Build configuration list for PBXProject "Bad Final Grade Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6899C11C4577180061E209 /* Debug */,
+				7E6899C21C4577180061E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6899C31C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6899C41C4577180061E209 /* Debug */,
+				7E6899C51C4577180061E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E6899C61C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6899C71C4577180061E209 /* Debug */,
+				7E6899C81C4577180061E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E6899C91C4577180061E209 /* Build configuration list for PBXNativeTarget "Bad Final Grade CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6899CA1C4577180061E209 /* Debug */,
+				7E6899CB1C4577180061E209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6899931C4577170061E209 /* Project object */;
+}
